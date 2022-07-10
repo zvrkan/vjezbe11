@@ -1,0 +1,11 @@
+<?php
+
+// main
+
+include("Vozilo.php");
+
+$vozilo = new Vozilo();
+
+$vozilo->getPodaci();
+
+?>
