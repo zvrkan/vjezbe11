@@ -1,4 +1,3 @@
-# vjezbe11
 
 Primjenom kontrola pristupa (public, private, protected) na atributima i metodama stvorite prvo UML dijagram i nakon toga odgovarajuću php klasu. 
 Vodite računa o mogućnostima nasljeđivanja. Nije dopušten izravan pristup atributima.
