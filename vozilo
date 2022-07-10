@@ -1,0 +1,56 @@
+<?php
+
+// Vozilo.php
+
+class Vozilo
+{
+    protected $marka;
+    protected $model;
+    protected $ks;
+
+    function __construct()
+    {
+        $this->setMarka();
+        $this->setModel();
+        $this->setKs();
+    }
+
+    public function getMarka()
+    {
+        return $this->marka;
+    }
+
+    protected function setMarka()
+    {
+        $this->marka = readline("Marka: ");
+    }
+
+    public function getModel()
+    {
+        return $this->model;
+    }
+
+    protected function setModel()
+    {
+        $this->model = readline("Model: ");
+    }
+
+    public function getKs()
+    {
+        return $this->ks;
+    }
+
+    protected function setKs()
+    {
+        $this->ks = readline("KS: ");
+    }
+
+    public function getPodaci()
+    {
+        echo "Marka: " . $this->getMarka() . "\n";
+        echo "Model: " . $this->getModel() . "\n";
+        echo "KS: " . $this->getKs() . "\n";
+    }
+}
+
+?>
